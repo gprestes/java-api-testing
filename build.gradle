@@ -1,0 +1,32 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = uri('https://repo.maven.apache.org/maven2/')
+    }
+}
+
+dependencies {
+    testImplementation 'io.rest-assured:rest-assured:3.3.0'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'com.tngtech.junit.dataprovider:junit4-dataprovider:2.4'
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+    testImplementation 'com.github.tomakehurst:wiremock-jre8:2.21.0'
+}
+
+group = 'com.ontestautomation.taurestassured'
+version = '1.0-SNAPSHOT'
+description = 'TestAutomationURESTAssured'
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
