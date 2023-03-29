@@ -15,7 +15,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.tngtech.junit.dataprovider:junit4-dataprovider:2.4'
     testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
-    testImplementation 'com.github.tomakehurst:wiremock-jre8:2.21.0'
+    testImplementation 'com.github.tomakehurst:wiremock-jre8:2.35.0'
 }
 
 group = 'com.ontestautomation.taurestassured'
