@@ -14,7 +14,7 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured:5.5.1'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'com.tngtech.junit.dataprovider:junit4-dataprovider:2.10'
-    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.18.3'
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.19.0'
     testImplementation 'com.github.tomakehurst:wiremock-jre8:2.35.2'
 }
 
