@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'io.rest-assured:rest-assured:5.5.1'
+    testImplementation 'io.rest-assured:rest-assured:5.5.5'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'com.tngtech.junit.dataprovider:junit4-dataprovider:2.10'
     testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.19.0'
