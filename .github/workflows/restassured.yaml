@@ -14,7 +14,7 @@ jobs:
           java-version-file: .java-version
       - name: Run gradlew
         run: ./gradlew test
-      - uses: actions/upload-artifact@v6.0.0
+      - uses: actions/upload-artifact@v7.0.0
         with:
           name: report.html
           path: build/reports/tests/test/index.html
